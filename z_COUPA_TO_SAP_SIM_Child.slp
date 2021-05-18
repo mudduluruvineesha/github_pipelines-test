@@ -1,0 +1,2112 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link175": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        },
+        "link176": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link177": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output0"
+        },
+        "link178": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output1"
+        },
+        "link180": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        },
+        "link183": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link184": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000008",
+            "src_view_id": "output0"
+        },
+        "link185": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link188": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000a",
+            "src_view_id": "output0"
+        },
+        "link189": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output1"
+        },
+        "link207": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link208": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output0"
+        },
+        "link209": {
+            "dst_id": "11111111-1111-1111-1111-00000000000b",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000009",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "vmudduluru@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input0": {
+                "label": {
+                    "value": "Copy - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-00000000000b_output0": {
+                "label": {
+                    "value": "SAP Execute - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": [
+                    {
+                        "key": {
+                            "value": "pipelineName"
+                        },
+                        "value": {
+                            "expression": true,
+                            "value": "pipe.label"
+                        }
+                    },
+                    {
+                        "key": {
+                            "value": "pipelineRuuid"
+                        },
+                        "value": {
+                            "expression": true,
+                            "value": "pipe.ruuid"
+                        }
+                    },
+                    {
+                        "key": {
+                            "value": "pipelineStartTime"
+                        },
+                        "value": {
+                            "expression": true,
+                            "value": "pipe.startTime"
+                        }
+                    },
+                    {
+                        "key": {
+                            "value": "projectPath"
+                        },
+                        "value": {
+                            "expression": true,
+                            "value": "pipe.projectPath"
+                        }
+                    }
+                ]
+            },
+            "error_pipeline": {
+                "expression": true,
+                "value": null
+            },
+            "imports": {
+                "value": [
+                    {
+                        "as": {
+                            "value": "conf"
+                        },
+                        "path": {
+                            "expression": false,
+                            "value": "propertiescw (1).expr"
+                        }
+                    }
+                ]
+            },
+            "param_table": {
+                "value": []
+            },
+            "suspendable": {
+                "value": false
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000009": {
+                "error": {},
+                "grid_x_int": 9,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "input101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000000a": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000000b": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-flow-copy",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Copy"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "output1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-flow-copy",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Copy1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "LFA1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "LFB1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Flatten Array"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$T_KNVK[0].EMAIL.map( (x,i) => {\t\"LIFNR\": $T_KNVK[0].LIFNR,    \"EMAIL\":$T_KNVK[0].EMAIL[i], \t\"LASTNAME\":$T_KNVK[0].LASTNAME[i],\t\"FIRSTNAME\":$T_KNVK[0].FIRSTNAME[i], \t\"PHONE_MOBILE\":$T_KNVK[0].PHONE_MOBILE, \t\"PHONE_WORK\":$T_KNVK[0].PHONE_WORK\t} )"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_KNVK"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$T_LFM1"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFM1"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-groupbyn",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Group By N"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "groupSize": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "targetField": {
+                        "value": "$T_LFA1"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-transform-groupbyn",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Group By N"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "groupSize": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "targetField": {
+                        "value": "$T_LFB1"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": [
+                            {
+                                "includePath": {
+                                    "value": "$"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "path": {
+                        "value": "$['supplier-information-addresses'][*]"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "LFA1 Mapping"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['supplier-id']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$EMNFR"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$kind == \"Primary\" ? \"ZRVN\" : ( $kind == \"RTA\" ? \"ZRPI\" : \" \" )"
+                                        },
+                                        "targetPath": {
+                                            "value": "$KTOKK"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$country.code"
+                                        },
+                                        "targetPath": {
+                                            "value": "$LAND1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$mainid"
+                                        },
+                                        "targetPath": {
+                                            "value": "$LIFNR"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['display-name'] != \"\" ? $['display-name'] : $name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$NAME1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['display-name'] != \"\" ? $name : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$NAME2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$city"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ORT01"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$kind == \"RTA\" ? $['custom-fields']['remit-po-box'] : $['po-box']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$PFACH"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['po-email']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$PO_EMAIL"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$kind == \"RTA\" ? $['custom-fields']['remittance-po-box-postal-code'] : $['po-box-postal-code']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$PSTL2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['postal-code']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$PSTLZ"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['state-region']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$REGIO"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['display-name'] != \"\" ? $['display-name'].replaceAll(\" \",\"\").slice(0,9).toUpperCase() : $name.replaceAll(\" \",\"\").slice(0,9).toUpperCase()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$SORTL"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['federal-tax-num']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$STCD1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['intl-tax-num']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$STCEG"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['street-address2']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$STR_SUPPL3"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['street-address']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$STRAS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ZRTAID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$kind == \"Primary\" ? $['supplier-number'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$SAP_VENDOR_NO"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"prompt\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$PO_METHOD"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"prompt\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$PO_CHANGE_METHOD"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['bank-routing-number']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$BANKL"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['bank-account-number']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$BANKN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['bank-country'].code"
+                                        },
+                                        "targetPath": {
+                                            "value": "$BANKS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['name-on-bank-account'].toUpperCase()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$KOINH"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "LFB1 Mapping"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"201010\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$AKONT"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['payment-term'].code"
+                                        },
+                                        "targetPath": {
+                                            "value": "$GUZTE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['main-custom-fields']['supplier-remit-to-contact-email']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$INTAD"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$LIFNR"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['main-custom-fields']['recipient-type']['external-ref-code']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$QSREC"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['main-custom-fields']['withholding-tax-codes']['external-ref-code']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$QSSKZ"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['payment-term'].code"
+                                        },
+                                        "targetPath": {
+                                            "value": "$ZTERM"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"009\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$ZUAWA"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$kind == \"RTA\" ? $['custom-fields']['sap-payment-method']['external-ref-code'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$ZWELS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['bank-routing-number']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$BANKL"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['bank-account-number']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$BANKN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['bank-country'].code"
+                                        },
+                                        "targetPath": {
+                                            "value": "$BANKS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['name-on-bank-account'].toUpperCase()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$KOINH"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapping Suppier Transformation"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_KNVK[*].LIFNR"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-contacts'][*].email\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_KNVK[*].EMAIL"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-contacts'][*]['name-family']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_KNVK[*].LASTNAME"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-contacts'][*]['name-given']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_KNVK[*].FIRSTNAME"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"['supplier-information-contacts'][*]['phone-work'].['area-code']\").toString() + jsonPath($, \"['supplier-information-contacts'][*]['phone-work'].number\").toString()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_KNVK[*].PHONE_WORK"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"['supplier-information-contacts'][*]['phone-mobile'].['area-code']\").toString() + jsonPath($, \"['supplier-information-contacts'][*]['phone-mobile'].number\").toString()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_KNVK[*].PHONE_MOBILE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['supplier-id']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].EMNFR"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].kind\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].KTOKK"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].country.code\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].LAND1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].LIFNR"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['display-name'] != \"\" ? $['display-name'] : $name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].NAME1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].NAME2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].city\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].ORT01"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].kind\") == \"RTA\" ? jsonPath($, \"$['supplier-information-addresses'][*]['custom-fields']['remit-po-box']\") : jsonPath($, \"$['supplier-information-addresses'][*]['po-box']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].PFACH"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['po-email']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].PO_EMAIL"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].kind\") == \"RTA\" ? jsonPath($, \"$['supplier-information-addresses'][*]['custom-fields']['remittance-po-box-postal-code']\") : jsonPath($, \"$['supplier-information-addresses'][*]['po-box-postal-code']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].PSTL2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*]['postal-code']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].PSTLZ"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*]['state-region']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].REGIO"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['display-name'] != \"\" ? $['display-name'].replaceAll(\" \",\"\").slice(0,9).toUpperCase() : $name.replaceAll(\" \",\"\").slice(0,9).toUpperCase()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].SORTL"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['federal-tax-num']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].STCD1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['intl-tax-num']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].STCEG"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*]['street-address2']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].STR_SUPPL3"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*]['street-address']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].STRAS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"['supplier-information-contacts'][*]['phone-mobile']['created-by']['employee-number']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].TELF1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"['supplier-information-contacts'][*]['phone-fax']['created-by']['employee-number']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].TELFX"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].id\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].ZRTAID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['supplier-number']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].SAP_VENDOR_NO"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['po-method']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].PO_METHOD"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['po-change-method']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].PO_CHANGE_METHOD"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"201010\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].AKONT"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['payment-term'].code"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].GUZTE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['custom-fields']['supplier-remit-to-contact-email']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].INTAD"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].LIFNR"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['custom-fields']['recipient-type']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].QSREC"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['custom-fields']['withholding-tax-codes']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].QSSKZ"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].kind\") == \"RTA\" ? jsonPath($, \"$['supplier-information-addresses'][*]['custom-fields']['supplier-remit-to-contact-phone-number']\") : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].TLFNS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].kind\") == \"RTA\" ? jsonPath($, \"$['supplier-information-addresses'][*]['custom-fields']['supplier-remit-to-contact-full-name']\") : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].ZSABE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['payment-term'].code"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].ZTERM"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"009\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].ZUAWA"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].kind\") == \"RTA\" ? jsonPath($, \"$['supplier-information-addresses'][*]['custom-fields']['sap-payment-method']\") : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].ZWELS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*]['bank-routing-number']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].BANKL"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*]['bank-account-number']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].BANKN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].bank-country.code\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].BANKS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*]['name-on-bank-account']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFB1[*].KOINH"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"1000\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFM1[*].EKORG"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "($['inco-terms'] == \"EXW\" || $['inco-terms'] == \"FCA\" || $['inco-terms'] == \"CPT\" || $['inco-terms'] == \"CIP\" || $['inco-terms'] == \"DAT\" || $['inco-terms'] == \"DAP\" || $['inco-terms'] == \"DDP\" || $['inco-terms'] == \"FAS\" || $['inco-terms'] == \"FOB\" || $['inco-terms'] == \"CFR\" || $['inco-terms'] == \"CIF\")? $['inco-terms'] : \"CFR\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFM1[*].INCO1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$id"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFM1[*].LIFNR"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasPath(\"['preferred-currency'].code\") ? ( $['preferred-currency'].code == ( \"\" || null ) ? \"USD\" : $['preferred-currency'].code ) : \"USD\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFM1[*].WAERS"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['payment-term'].code"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFM1[*].ZTERM"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*]['bank-routing-number']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].BANKL"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*]['bank-account-number']\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].BANKN"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$['supplier-information-addresses'][*].bank-country.code\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$T_LFA1[*].BANKS"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000009": {
+            "class_id": "com-snaplogic-snaps-transform-multijoin",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000009",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Merge all"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "LFM1_KNVK"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "LFA1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input101": {
+                        "label": {
+                            "value": "LFB1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "joinPaths": {
+                        "value": [
+                            {
+                                "leftPath": {
+                                    "expression": true,
+                                    "value": "1"
+                                },
+                                "rightInputView": {
+                                    "value": "LFA1"
+                                },
+                                "rightPath": {
+                                    "expression": true,
+                                    "value": "1"
+                                }
+                            }
+                        ]
+                    },
+                    "joinType": {
+                        "value": "Merge"
+                    },
+                    "noMatchData": {
+                        "value": false
+                    },
+                    "nullGreater": {
+                        "value": false
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "sortedStreams": {
+                        "value": "Ascending"
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-00000000000a": {
+            "class_id": "com-snaplogic-snaps-transform-structuraltransform",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-00000000000a",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Structure"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "mappingTable": {
+                        "value": [
+                            {
+                                "operation": {
+                                    "value": "move"
+                                },
+                                "sourcePath": {
+                                    "value": "$id"
+                                },
+                                "targetPath": {
+                                    "value": "$mainid"
+                                }
+                            },
+                            {
+                                "operation": {
+                                    "value": "move"
+                                },
+                                "sourcePath": {
+                                    "value": "$['custom-fields']"
+                                },
+                                "targetPath": {
+                                    "value": "$['main-custom-fields']"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": "Yes"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000b": {
+            "class_id": "com-snaplogic-snaps-sap-execute",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-00000000000b",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "SAP ECC CAL as rdill vld 10.23.2020"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-sap-jcoaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "SAP Execute"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "bapi": {
+                        "expression": false,
+                        "value": "BAPI_VENDOR_CREATE"
+                    },
+                    "bapi_config": {
+                        "value": []
+                    },
+                    "commit": {
+                        "value": false
+                    },
+                    "commitTimeout": {
+                        "expression": false,
+                        "value": 300
+                    },
+                    "dateConversion": {
+                        "expression": false,
+                        "value": "yyyyMMdd"
+                    },
+                    "error_handling": {
+                        "value": [
+                            {
+                                "error_path": {
+                                    "expression": false,
+                                    "value": "$RETURN[*].TYPE"
+                                },
+                                "error_value": {
+                                    "expression": false,
+                                    "value": "E"
+                                }
+                            }
+                        ]
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "maxAttempts": {
+                        "value": 3
+                    },
+                    "outputDateTimeAsText": {
+                        "value": false
+                    },
+                    "reloadFunctionMetadata": {
+                        "value": false
+                    },
+                    "requestRetryInterval": {
+                        "value": 5
+                    },
+                    "routeErrors": {
+                        "value": false
+                    },
+                    "sessionId": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "startCallSequence": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

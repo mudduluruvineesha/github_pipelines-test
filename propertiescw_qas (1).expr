@@ -1,0 +1,360 @@
+{
+    applications:
+    {
+        
+        sap:
+        {
+            dev:
+            {
+                account: '../shared/Clearway ZEQ',
+                gatewayhost: 'nrgeccqa',
+                gatewayservice: 'sapgw00',
+                programid: 'snaplogicqa',
+                
+                    vendor:
+                    {
+                    mstyp: 'ZCUVEND'
+                    },
+                    remit:
+                    {
+                    mstyp: 'ZCUREMIT'
+                    },
+                    plant:
+                    {
+                    mstyp: 'ZCUPLANT'
+                    },
+                    companycode:
+                    {
+                    mstyp: 'ZCU_CCODE'
+                    },
+                    costcenter:
+                    {
+                    mstyp: 'ZCUCC'
+                    },
+                    internalorder:
+                    {
+                    mstyp: 'ZCUIO'
+                    },
+                    user:
+                    {
+                    mstyp: 'ZCUUSERS'
+                    },
+                    glaccount:
+                    {
+                    mstyp: 'ZCUGL'
+                    },
+                    gr:
+                    {
+                    mstyp: 'WMMBXY',
+                    idoctyp: 'WMMBID02'
+                    },
+                    profitcenter:
+                    {
+                    mstyp: 'ZCUPC'
+                    },
+                    payment:
+                    {
+                    mstyp: 'ZCUPAY'
+                    }             
+            },
+            test:
+            {
+                account: '../shared/Clearway ZEQ',
+                gatewayhost: 'nrgeccqa',
+                gatewayservice: 'sapgw00',
+                programid: 'snaplogicqa',
+                
+                    vendor:
+                    {
+                    mstyp: 'ZCUVEND'
+                    },
+                    remit:
+                    {
+                    mstyp: 'ZCUREMIT'
+                    },
+                    plant:
+                    {
+                    mstyp: 'ZCUPLANT'
+                    },
+                    companycode:
+                    {
+                    mstyp: 'ZCU_CCODE'
+                    },
+                    costcenter:
+                    {
+                    mstyp: 'ZCUCC'
+                    },
+                    internalorder:
+                    {
+                    mstyp: 'ZCUIO'
+                    },
+                    user:
+                    {
+                    mstyp: 'ZCUUSERS'
+                    },
+                    glaccount:
+                    {
+                    mstyp: 'ZCUGL'
+                    },
+                    gr:
+                    {
+                    mstyp: 'WMMBXY'
+                    },
+                    profitcenter:
+                    {
+                    mstyp: 'ZCUPC'
+                    },
+                    payment:
+                    {
+                    mstyp: 'ZCUPAY'
+                    }
+                
+            },
+            prod:
+            {
+                account: '../shared/Clearway ZED',
+                gatewayhost: 'nrgeccdev',
+                gatewayservice: 'sapgw00',
+                programid: 'snaplogic',
+                
+                    vendor:
+                    {
+                    mstyp: 'ZCUVEND'
+                    },
+                    remit:
+                    {
+                    mstyp: 'ZCUREMIT'
+                    },
+                    plant:
+                    {
+                    mstyp: 'ZCUPLANT'
+                    },
+                    companycode:
+                    {
+                    mstyp: 'ZCU_CCODE'
+                    },
+                    costcenter:
+                    {
+                    mstyp: 'ZCUCC'
+                    },
+                    internalorder:
+                    {
+                    mstyp: 'ZCUIO'
+                    },
+                    user:
+                    {
+                    mstyp: 'ZCUUSERS'
+                    },
+                    glaccount:
+                    {
+                    mstyp: 'ZCUGL'
+                    },
+                    gr:
+                    {
+                    mstyp: 'WMMBXY'
+                    },
+                    profitcenter:
+                    {
+                    mstyp: 'ZCUPC'
+                    },
+                    payment:
+                    {
+                    mstyp: 'ZCUPAY'
+                    }
+                
+            }
+        },
+        sftp:
+        {
+            dev:
+            {
+                account: '../shared/SFTP_Test-Clearway',
+                basepath: 'sftp://fileshare-stg-oregon.coupahost.com/Incoming/',
+                filetype:'.csv',         
+                    vendor:
+                     {
+                        path: 'Suppliers/Vendor_'
+                     },
+                    remit:
+                     {
+                        path: 'RemitToAddresses/Remit_'
+                     },
+                    plant:
+                     {
+                        path: 'Addresses/Plant_'
+                     },
+                    companycode:
+                     {
+                        path: 'LookupValues/CCode_'
+                     },
+                    costcenter:
+                     {
+                        path: 'LookupValues/CCenter_'
+                     },
+                     internalorders:
+                     {
+                        path: 'LookupValues/IOWO_'
+                     },
+                     users:
+                     {
+                        path: 'Users/users_'
+                     },
+                     glaccount:
+                     {
+                        path: 'LookupValues/GLAccount_'
+                     },
+                     gr:
+                     {
+                        path: 'Receipts/sap_gr_'
+                     },
+                     profitcenter:
+                     {
+                        path: 'LookupValues/ProfitCntr_'
+                     },
+                     payment:
+                     {
+                        path: 'InvoicePayments/Payment_'
+                     }
+            },
+            test:
+            {
+                account: '../shared/SFTP_Test-Clearway',            
+                basepath: 'sftp://fileshare-stg-oregon.coupahost.com/Incoming/',
+                filetype:'.csv',         
+                    vendor:
+                     {
+                        path: 'Suppliers/Vendor_'
+                     },
+                    remit:
+                     {
+                        path: 'RemitToAddresses/Remit_'
+                     },
+                    plant:
+                     {
+                        path: 'Addresses/Plant_'
+                     },
+                    companycode:
+                     {
+                        path: 'LookupValues/CCode_'
+                     },
+                    costcenter:
+                     {
+                        path: 'LookupValues/CCenter_'
+                     },
+                     internalorders:
+                     {
+                        path: 'LookupValues/IOWO_'
+                     },
+                     users:
+                     {
+                        path: 'Users/users_'
+                     },
+                     glaccount:
+                     {
+                        path: 'LookupValues/GLAccount_'
+                     },
+                     gr:
+                     {
+                        path: 'Receipts/sap_gr_'
+                     },
+                     profitcenter:
+                     {
+                        path: 'LookupValues/ProfitCntr_'
+                     },
+                     payment:
+                     {
+                        path: 'InvoicePayments/Payment_'
+                     }
+                
+            },
+            prod:
+            {
+                account: '../shared/SFTP_Test-Clearway',            
+                basepath: 'sftp://fileshare-stg-oregon.coupahost.com/Incoming/',
+                filetype:'.csv',         
+                    vendor:
+                     {
+                        path: 'Suppliers/Vendor_'
+                     },
+                    remit:
+                     {
+                        path: 'RemitToAddresses/Remit_'
+                     },
+                    plant:
+                     {
+                        path: 'Addresses/Plant_'
+                     },
+                    companycode:
+                     {
+                        path: 'LookupValues/CCode_'
+                     },
+                    costcenter:
+                     {
+                        path: 'LookupValues/CCenter_'
+                     },
+                     internalorders:
+                     {
+                        path: 'LookupValues/IOWO_'
+                     },
+                     users:
+                     {
+                        path: 'Users/users_'
+                     },
+                     glaccount:
+                     {
+                        path: 'LookupValues/GLAccount_'
+                     },
+                     gr:
+                     {
+                        path: 'Receipts/sap_gr_'
+                     },
+                     profitcenter:
+                     {
+                        path: 'LookupValues/ProfitCntr_'
+                     },
+                     payment:
+                     {
+                        path: 'InvoicePayments/Payment_'
+                     } 
+                
+            }
+        },
+    },      
+    lookupTables:
+    {
+      minoritytype:
+      {
+          "HIS":"1",
+          "NAT":"2",
+          "AFR":"3",
+          "ASN":"4"
+      },
+      class:
+      {
+      "CEG": "CEG_01,CEG_02,CEG_03,CEG_04,CEG_05,CEG_06,CEG_07,CEG_08,CEG_09,CEG_10",
+      "CONVENTIONAL":"CONVENTIONAL",
+      "CORPORATE":"",
+      "CWEN":"CWEN_01,CWEN_02,CWEN_03,CWEN_04,CWEN_05,CWEN_06,CWEN_07,CWEN_08,CWEN_09,CWEN_10",
+      "THERMAL":"THERMAL",
+      "RENOM":"RENOM_01,RENOM_02,RENOM_03,RENOM_04"
+      },
+      mvmttype: 
+      {
+		"101":"ReceivingConsumption",
+		"102":"VoidReceivingConsumption",
+		"121":"ReceivingConsumption",
+		"122":"ReceivingReturnToSupplier",
+		"123":"VoidReceivingReturnToSupplier",
+		"161":"ReceivingReturnToSupplier",
+		"162":"VoidReceivingReturnToSupplier"
+      }  
+      
+    },
+    errors: 'shared/z_captureDataErrors',
+    getLtValue: (appName,lookupKey) => appName in this.lookupTables ? (lookupKey in this.lookupTables[appName] ? this.lookupTables[appName][lookupKey] : null) : null,
+    timezoneSync: 'US/Pacific',
+    maxRetryCount: 24,
+    getOrgName: pipe.plexPath.split('/')[1],
+    whereAmI: this.getOrgName.toLowerCase().contains('dev') ? "dev" : (this.getOrgName.toLowerCase().contains('test') ? "test"  : (this.getOrgName.toLowerCase().contains('prod') ? "prod" : null)),
+    getAppConf: x => (this.applications[x][this.whereAmI])
+}

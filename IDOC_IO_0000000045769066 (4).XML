@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZCUIO>
+	<IDOC BEGIN="1">
+		<EDI_DC40 SEGMENT="1">
+			<TABNAM><![CDATA[EDI_DC40]]></TABNAM>
+			<MANDT>900</MANDT>
+			<DOCNUM>0000000045769066</DOCNUM>
+			<DOCREL>740</DOCREL>
+			<STATUS>30</STATUS>
+			<DIRECT>1</DIRECT>
+			<OUTMOD>4</OUTMOD>
+			<IDOCTYP>ZCUIO</IDOCTYP>
+			<MESTYP>ZCUIO</MESTYP>
+			<SNDPOR>SAPZEQ</SNDPOR>
+			<SNDPRT>LS</SNDPRT>
+			<SNDPRN>SNAPLOGIC</SNDPRN>
+			<RCVPOR>SNAPLOGIC</RCVPOR>
+			<RCVPRT>LS</RCVPRT>
+			<RCVPRN>ZCOUPA900</RCVPRN>
+			<CREDAT>20200906</CREDAT>
+			<CRETIM>153554</CRETIM>
+			<SERIAL>20200906153553</SERIAL>
+		</EDI_DC40>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>AGC- Inspect Array B1,2,3,4</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016229</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>AGC SMS Manual Operation Verifcation</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016273</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY- Inspect Array</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016278</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY-Inspect Combiner Boxes B2</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016279</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY-Inspect Combiner Boxes B3</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016280</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY-Inspect Combiner Boxes B4</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016281</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY-Inspect Combiner Boxes B1</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016282</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY-Inverter clean and inspect B3,4 1YR</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016284</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY-MV ABB Breaker and Enclosuure B1 1YR</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016285</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT><![CDATA[BLY- PCS C&I transformer IR scan 1 YR]]></KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016286</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY PVCS Inspection</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016287</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BL2- Inspect Array</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016289</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Inverter Comms Card Failing,</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016315</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>SCWFD 102Pyranometer Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016317</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>SCWFD 103 Pyranometrer Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016318</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>PVP Inverter Trip</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016319</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>SCWFD 101 Pyranometer Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016323</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY Inverter IR Scans B1,2</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016324</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY Inverter IR Scans B3,4</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016325</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Transformer Oil Sampling  (50%/year)</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016326</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Payson High School Inv5/Meter Offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016331</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Payson Elem Meter Comms</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016361</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Pyranometer Install Gila Bend</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016362</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Payson Elem Pyranometer Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016363</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Payson High Pyranometer Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016364</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Julia Randall Pyra Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016365</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Bethune Pyra Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016366</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>AGC- Inspect Array B 5,6, 7, 8</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016403</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT><![CDATA[AGC PCS Shltr C&I. XFMR C&I & IR, B11,12]]></KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016420</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS-SITE-Administrative</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016468</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS-SITE-Environmental Inspection</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016472</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS-SITE-Inspect DC Health/Sen. Valid</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016476</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS--Inspect/Replace Eye Wash Fluid</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016479</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS SITE-PTO</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016486</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS-SITE-Plant Technical Rounds</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016487</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS-SITE-Inspect Safety Equipment 1MON</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016491</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS -SITE-Training</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016496</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS-SITE-Training</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016498</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT><![CDATA[Continental Inv 1&2 comms]]></KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016532</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BL2 Combiner Box Inspection and Maintena</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016539</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Whittier Elem Site Trip</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016597</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Transformer Oil Sampling  (50%/year)</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016601</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Bethune Elem Inverters 2,3,4 Offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016602</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BL2 Transformer Oil Sampling  (50%/year)</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016648</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Payson Middle Meter 5 Comms</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016659</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Payson Elem Site offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016666</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Whittier Elem Meter 2/INV offilne</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016667</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Interdisciplinary Inv Comms offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016671</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT><![CDATA[BLY PCS C&I transformer IR scan, 3 YR]]></KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016681</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Santa Cruz HS Pyranometer Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016697</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Vail District Office Inv 3 under perform</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016711</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BLY Transformer Oil Sampling 50%/YR B2,4</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016715</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BL2 Inverter IR Scans</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016725</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BL2-SITE-Inspect/Clean Inverter</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016726</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>East Poly Site Comms Offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016728</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Phoenician Inv 6 Offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016731</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Phoenician Inv 9 offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016735</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Phoenician Inv 10</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016736</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Flagstaff City Hall Pyranometer Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016740</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Puente De Hozho Pyranometer Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016741</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>DeMiguel Pyranometer Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016742</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Interdisciplinary Comms Offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016743</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Indoor Practice Facility</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016759</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Buckthorn Services</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016766</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT><![CDATA[AGC PCS�Shltr�C&I,�XFMR�C&I�&�IR B1,2]]></KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016789</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT><![CDATA[40' Containers]]></KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016805</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Frito Lay Inv 2 offline (DC Switch Fail)</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016821</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>ASU CDS Inv offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016822</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Security Monitoring - Agua</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016825</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>11-12 Something Loose In Fan4-Noise</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016838</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>9-10 TX pressure gauge needs replacement</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016841</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Interdisciplinary Inverter Offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016850</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Payson Elm Site Comms Offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016867</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS Back-up Generator Inspection Weekly</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016877</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS Back-up Generator Inspection Weekly</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016878</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS Back-up Generator Inspection Weekly</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016879</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT><![CDATA[AGC--HVAC INSPECTION & MAINTENANCE]]></KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016880</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>ASU PS7 Pyranometer Install</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016922</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS Commissioning WO  April</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016925</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS Commissioning WO May</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016926</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS Transformer Oil Sampling  100% 1YR</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016975</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS Mowing 3 MONTH</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016980</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS Tracker Maintenance ( Monthly)</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016984</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Puente De Hozho Meter 1 Readings Reverse</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4016990</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Imperial County - Services</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4017018</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>ARLINGTON/BUCKEYE AESD 1 YEAR PM</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4017022</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>RBS SITE-PTO</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4017053</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>BL2-SITE-Training</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]></BUTXT>
+			<AUFNR>4017060</AUFNR>
+			<BUKRS>3512</BUKRS>
+		</ZCUIO>
+		<ZCUIO SEGMENT="1">
+			<ACTIVE>Yes</ACTIVE>
+			<KTEXT>Frito Lay Inverter 4 offline</KTEXT>
+			<BUTXT><![CDATA[Renew Operation & Mainten]]><
